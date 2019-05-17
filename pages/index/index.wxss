@@ -1,0 +1,60 @@
+/**index.wxss**/
+
+.input {
+  width: 100%;
+  text-align: center;
+  height: 72rpx;
+}
+
+.text-input {
+  width: 640rpx;
+  display: inline-block;
+  margin-bottom: 12px;
+  height: 72rpx;
+  overflow: auto;
+} 
+.placeholdertext {
+  color: #CACACA;
+}
+.line {
+  width: 90%;
+  height: 2rpx;
+  background: #e4e4e4;
+  margin: 24rpx 0 32rpx 0;
+}
+.line-active {
+  width: 90%;
+  height: 2rpx;
+  background: #1AAD19;
+  margin: 24rpx 0 32rpx 0;
+}
+.output {
+  height: 100rpx;
+  width: 640rpx;
+  color: #9b9b9b;
+  white-space: nowrap;
+  text-align: center;
+}
+.text-output {
+  width: 640rpx;
+  text-align: center;
+}
+.few {
+  font-size: 48rpx;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+.more {
+  font-size: 44rpx;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+.most {
+  font-size: 34rpx;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+.done {
+  width: 640rpx;
+  margin-top: 64rpx;
+}

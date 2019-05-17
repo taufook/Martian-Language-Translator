@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="input">
+    <input type="text" class="text-input {{textdisplay}}" placeholder="{{placeholder}}" placeholder-class="placeholdertext" bindfocus="clearPlaceHolder" bindinput="textInput" bindblur="resetPlaceHolder" />
+  </view>
+   <view class="{{linedisplay}}"></view> 
+  <scroll-view class="output" scroll-x>
+    <p class="text-output {{textdisplay}}" >{{output}}</p>
+  </scroll-view>
+  <view>
+    <button wx:if="{{typed==true}}" class="done" type="default" size="default" disabled="{{disabled}}" bindtap="transAndCopy">{{buttontext}}</button>
+  </view>
+</view>
